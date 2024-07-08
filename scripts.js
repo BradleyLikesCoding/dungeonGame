@@ -1,6 +1,3 @@
-if(window.location.href == "https://double-dungeons.w3spaces.com/") {
-  location.replace("https://doubledungeons.com")
-}
 c = document.getElementById("graphics");
 ctx = c.getContext("2d");
 var canClick = true;
@@ -37,21 +34,21 @@ if (localStorage.getItem("personalRecord2") == null) {
 }
 
 var key = new Image();
-key.src = 'https://double-dungeons.w3spaces.com/images/key.png';
+key.src = 'images/key.png';
 
 var resetBTN = new Image();
-resetBTN.src = 'https://double-dungeons.w3spaces.com/images/restart.png';
+resetBTN.src = 'images/restart.png';
 
 var homeBTN = new Image();
-homeBTN.src = 'https://double-dungeons.w3spaces.com/images/home.png';
+homeBTN.src = 'images/home.png';
 
 var v1 = new Image();
-v1.src = 'https://double-dungeons.w3spaces.com/images/v-1.png';
+v1.src = 'images/v-1.png';
 
 var v2 = new Image();
-v2.src = 'https://double-dungeons.w3spaces.com/images/v-2.png';
+v2.src = 'images/v-2.png';
 
-var clickSound = new Audio('https://double-dungeons.w3spaces.com/sounds/click.mp3');
+var clickSound = new Audio('sounds/click.mp3');
 
 function reset() {
   levels = [
@@ -323,7 +320,7 @@ function draw(excuse) {
           case ("W"):
             fill = false;
             var img = new Image();
-            img.src = 'https://double-dungeons.w3spaces.com/images/brick.png';
+            img.src = 'images/brick.png';
             ctx.drawImage(img, loopX * 25, loopY * 25);
             break;
           case ("K"):
