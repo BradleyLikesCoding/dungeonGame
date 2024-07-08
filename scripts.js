@@ -720,7 +720,7 @@ function DrawS() {
       ctx.strokeText("Speedy", 145, 290);
       ctx.strokeText("Mode", 175, 340);
       ctx.font = "47px arial";
-      ctx.strokeText("DOUBLE DUNGEONS", 3, 50);
+      ctx.strokeText("DUNGEON GAME", 3, 50);
       ctx.font = "25px comic sans MS";
       if (personalRecord1 == "None") {
         ctx.strokeText("Thinky Mode Record: " + personalRecord1, 10, 400);
